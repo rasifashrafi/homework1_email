@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>email writting</title>
+<style>
+body{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+#image{
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        
+    }
+
+#image1{
+    height: 100px; 
+    width: 100px;
+    transition: height 2s;
+}
+
+#image1:hover{
+    height: 140px;
+    width: 150px;
+}
+#image2{
+    height: 100px; 
+    width: 100px;
+    transition: height 2s;
+}
+
+#image2:hover{
+    height: 140px;
+    width: 150px;
+}
+#image3{
+    height: 100px; 
+    width: 100px;
+    transition: height 2s;
+}
+
+#image3:hover{
+    height: 140px;
+    width: 150px;
+}
+#image4{
+    height: 100px; 
+    width: 100px;
+    transition: height 2s;
+}
+
+#image4:hover{
+    height: 140px;
+    width: 150px;
+}
+
+#company_name{
+    text-shadow: 10px 5px 10px rgb(163, 119, 235);
+}
+
+#flip_images{
+    margin-left: 450px;
+    width: 600px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+
+}
+#lens{
+    height: 100px;
+    width: 100px;
+}
+#lens:hover{
+    transform: scaleX(-1);
+}
+
+#blink{
+    text-align: center;
+    color: rgb(194, 232, 255);
+    text-shadow: 10px 5px 10px rgb(255, 255, 255);
+    animation: 1s linear infinite header;
+}
+       
+    @keyframes header {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+
+#scratch{
+    margin-left: 450px;
+    width: 600px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.block {
+          background-color: #fce300;
+          width: 80px;
+          height: 80px;
+          position: relative;
+          float: left;
+          z-index: 10;
+          transition: 0s 100s;
+      }
+      .block:hover {
+          transition: 0s;
+          z-index: -10;
+      }
+</style>
+</head>
+<body>
+    <div>
+        <h1 id="company_name" style="text-align: center; color:rgb(128, 0, 255); font-size:50px;">
+                    ANGEL  LENS COMPANY
+        </h1>
+    </div>
+<div>
+    <h1 id="blink">HURRY UP</h1>
+    <h1 id="blink">50% OFF IN ALL LENS</h1>
+</div>
+<div style="color:blue; text-align:center;">
+    <h2>OFFER ENDS</h2>
+    <img style="align-item:center;" src="http://gen.sendtric.com/countdown/ztxiwre7hk" style="display: block;" alt="time remain" />
+</div>
+    <div id="image" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu9mnPRiZmIEYk5Q-cp9vB7RuDVrsJBK1NT-UQhoGuVhfraV1l);
+     background-repeat: no-repeat;
+     height: 600PX; 
+     width: 600px; color: rgb(253, 8, 8); 
+     background-position: center; 
+     background-size: cover;" 
+     alt="A MOST BEAUTIFUL GIRL BUT MODE IS OFF BECAUSE SHE HAD GLASS ON HER EYE WHEN CONTRACT LENS HAVE A GREAT SALE.">
+        <h1 style="text-align: center;">NO MORE HUSTLE, NO MORE PAIN</h1>
+        <p id="para" style="color:red; text-align:center;">GET RID OUT OF YOUR EYE GLASSES</p>
+
+        <div id="botom_images" style="display:flex; justify-content: space-between; margin-top: 423px;">
+            
+            <img id="image1" src="https://us.123rf.com/450wm/belchonock/belchonock1803/belchonock180356074/97782617-red-contact-lenses-on-black-background.jpg?ver=6" alt="MOST BEAUTIFUL EYES WITH GLASSES">
+
+            <img id="image2" src="https://cdn.pixabay.com/photo/2017/02/01/13/40/anatomy-2030238__340.jpg" alt="MOST BEAUTIFUL EYES WITH GLASSES">
+
+            <img  id="image3" src="https://cdn.pixabay.com/photo/2017/02/01/13/38/anatomy-2030234__340.jpg" alt="MOST BEAUTIFUL EYES WITH GLASSES">
+
+            <img  id="image4" src="https://cdn.pixabay.com/photo/2016/10/28/00/42/machine-1776925__340.jpg" alt="MOST BEAUTIFUL EYES WITH GLASSES">
+        </div>
+    </div>
+   <br>
+   <br>
+   <br>
+    <div style="text-align:center">
+        <img src="./images/lens.gif" alt="SOME MOST BEAUTIFUL LENS." style="width:600px;">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="flip_images">
+    <td>
+        <span>
+        <img id="lens" src="./images/lenses1.jpg" alt="YELLOW EYE LENS">
+        <p>$30 only</p>
+        </span>
+    </td>
+    <td>
+        <span>
+        <img id="lens" src="./images/lenses2.jpg" alt="BLUE EYE LENS">
+        <p>$70 only</p>
+        </span>
+    </td>      
+    <td>
+        <span>
+        <img id="lens" src="./images/lenses3.jpg" alt="YELLOW-BLACK EYE LENS">
+        <p>$60 only</p>
+        </span>
+    </td> 
+</div>
+    <div id="flip_images">
+    <td>
+        <span>
+        <img id="lens" src="./images/lenses4.jpg" alt="ASH EYE LENS">
+        <p>$50 only</p>
+        </span>
+    </td> 
+    <td>
+        <span>
+        <img id="lens" src="./images/lenses5.jpg" alt="BROWN EYE LENS">
+        <p>$80 only</p>
+        </span>
+    </td> 
+    <td>
+        <span>
+        <img id="lens" src="./images/lenses6.jpg" alt="YELLOW-RED-GREEN EYE LENS">
+        <p>$100 only</p>
+        </span>
+    </td>
+</div> 
+<div id="flip_images">
+    <td>
+        <span>
+        <img id="lens" src="./images/lenses7.jpg" alt="GREEN EYE LENS">
+        <p>$130 only</p>
+        </span>
+    </td> 
+    <td>
+        <span>
+        <img id="lens" src="./images/lenses8.jpg" alt="BROWN-GREEN EYE LENS">
+        <p>$160 only</p>
+        </span>
+    </td> 
+</div>
+
+<h1 style="color:tomato; text-align: center;">HERE MORE OFFER IS WAITTING FOR YOU. <br> PLEASE SCRATCH HERE <br></h1>
+
+<div id="scratch">
+<div style="width: 161px; height: 161px; border: 3px solid gold;">
+        <div style="background-image: url('./images/off1.jpg'); background-size: cover; position: absolute;width: 160px; height: 160px; color: black;"alt="50%off">CODE:50USE</div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div> 
+</div>
+<div style="width: 161px; height: 161px; border: 3px solid gold;">
+        <div style="background-image: url('./images/off2.png'); background-size: cover; position: absolute;width: 160px; height: 160px; color: black;" alt="75%off">CODE:75USE</div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+</div>
+<div style="width: 161px; height: 161px; border: 3px solid gold;">
+        <div style="background-image: url('./images/off3.jpg'); background-size: cover; position: absolute;width: 160px; height: 160px; color: black;" alt="80%off">CODE:80USE</div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div> 
+</div>
+</div>
+<br>
+<br>
+<br>
+<address style="color:whitesmoke; text-align:center;">
+    visit us at: <br>
+    ANGEL LENS COMPANY <br>
+    2008 NE 164th ST <br>
+    NORTH MIAMI BEACH, <br>
+    FL 33162
+</address>
+</body>
+</html>
